@@ -8905,7 +8905,7 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, ".DcXSjcjjaX9_NvqU207c- {\r\n    text-align: center;\r\n    color: #2C3A47;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".DcXSjcjjaX9_NvqU207c- {\r\n    text-align: center;\r\n    color: #b71540;\r\n}\r\n\r\n", ""]);
 
 // exports
 exports.locals = {
