@@ -1,5 +1,20 @@
 .Title {
     text-align: center;
-    color: #b71540;
+}
+
+.Title h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #dfe6e9;
+	background-color: #b71540;
+	width: 400px;
+	height: 70px;
+	border: 2px solid #dfe6e9;
+	border-radius: 2px;
+}
+
+.Title p {
+	font-size: 20px;
+	color: #dfe6e9;
 }
 

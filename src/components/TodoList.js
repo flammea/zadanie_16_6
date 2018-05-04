@@ -1,17 +1,11 @@
 import React from 'react';
 import style from './TodoList.css';
+import Todo from './Todo.js';
 
 
-const TodoList = props => {
-    const tasks = props.list.map((item) => {
-        return (
-        	<div>
-            	<a href={'#'} onClick={() => props.remove(item.id)} key={item.id}>
-            	<i className={'fas fa-angle-double-right fa-fw'}></i> 
-                {item.text}
-            	</a><br/>
-            </div>
-        )
+const TodoList = ({list, remove}) => {
+    const tasks = list.map((data) => {
+        return <Todo key={data.id} remove={remove} item={data}/>
     });
 
      return (
@@ -19,7 +13,6 @@ const TodoList = props => {
             <ul>{tasks}</ul>
         </div>
     )
-
 }
 
 export default TodoList;

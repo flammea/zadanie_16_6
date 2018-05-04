@@ -1,0 +1,37 @@
+.TodoForm {
+    margin: 20px;
+}
+
+.TodoForm section {
+    margin-bottom:10px;
+    width: 300px;
+    height: 30px;
+    position: relative;
+}
+
+.TodoForm input {
+  height:30px;
+  width: 100%;
+  border-radius: 4px;
+  border:none;
+  padding: 1px 0 1px 5px;
+}
+
+.TodoForm button {
+  position:absolute;
+  top: 2px;
+  right: 0;
+  border:none;
+  height:25px;
+  width:25px;
+  border-radius:100%;
+  text-align:center;
+  padding:2px;
+  color: #b71540;
+  background-color: #FFFFFF;
+  font-size: 25px;
+}
+
+.TodoForm textarea:focus, input:focus, button:focus {
+    outline: none;
+}
