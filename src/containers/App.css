@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+body {
+    margin: 0 auto; 
+}
+
 .TodoApp {
     font-family: "Open Sans";
-    background-color: #0a3d62;
+    background-color: #1D1D1D;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -12,3 +16,4 @@
     width: 100vw;
     height: 100vh;
 }
+
