@@ -28,12 +28,14 @@ class App extends React.Component {
     }
 
     addTodo(val){
-        const todo = {
-            text: val,
-            id: uuid.v4(),
-        };
-        const data = [...this.state.data, todo];
-        this.setState({data});
+        if (val) {
+            const todo = {
+                text: val,
+                id: uuid.v4(),
+            };
+            const data = [...this.state.data, todo];
+            this.setState({data});
+        }   
     }
 
     removeTodo(id) {
